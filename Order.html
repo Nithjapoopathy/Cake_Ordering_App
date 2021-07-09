@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="js.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+    <!--Boostrap grid CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap-grid.css" rel="stylesheet">
+
+    <!--AOS CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Dosis:wght@200&family=Josefin+Sans:wght@100&family=Orelega+One&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="header">
+    <h1 class="logo">Tasty<span>B</span>akers</h1>
+
+    <button class="button1">Buy Now</button>
+</div>
+
+<!--menu-->
+<section class="menu" id="menu">
+    <div data-aos="zoom-in-up" class="title2">
+        <h2 class="titleText2">Our <span>M</span>enu</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+    </div>
+    <div class="content2">
+        <div data-aos="zoom-in-right" class="box">
+            <div class="imgBx">
+                <img src="cake10.JPG">
+            </div>
+            <div class="text">
+                <h3>Chocolate Cake<br>Rs.2000</h3>
+            </div>
+        </div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"class="box">
+            <div class="imgBx">
+                <img src="cake24.JPG">
+            </div>
+            <div class="text">
+                <h3>Eggless Chocolate<br>Rs.2000</h3>
+            </div>
+        </div>
+        <div data-aos="zoom-in-right" class="box">
+            <div class="imgBx">
+                <img src="cake11.JPG">
+            </div>
+            <div class="text">
+                <h3>Children BD cake<br>Rs.2000</h3>
+            </div>
+        </div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" class="box">
+            <div class="imgBx">
+                <img src="cake17.JPG">
+            </div>
+            <div class="text">
+                <h3>Butter with chocolate cake<br>Rs.2000</h3>
+            </div>
+        </div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" class="box">
+            <div class="imgBx">
+                <img src="cake12.JPG">
+            </div>
+            <div class="text">
+                <h3>Dates cake<br>Rs.2000</h3>
+            </div>
+        </div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" class="box">
+            <div class="imgBx">
+                <img src="cake16.JPG">
+            </div>
+            <div class="text">
+                <h3>Carrot and walnut Cake<br>Rs.2000</h3>
+            </div>
+        </div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" class="box">
+            <div class="imgBx">
+                <img src="cake14.JPG">
+            </div>
+            <div class="text">
+                <h3>Red mini cake<br>Rs.2000</h3>
+            </div>
+        </div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom" class="box">
+            <div class="imgBx">
+                <img src="cake15.JPG">
+            </div>
+            <div class="text">
+                <h3>Chocolate mini cake<br>Rs.2000</h3>
+            </div>
+        </div>
+    </div>
+
+<!--To do function
+<div class="container1">
+    <h3>To-do-list</h3>
+    <div class="add-element">
+        <input type="text" id="add" placeholder="Type something to do">
+        <button id="btn">Add</button>
+    </div>
+
+    <div class="element-list">
+        <ul id="list">
+        </ul>
+    </div>
+</div>-->
+
+<!--form-->
+<div class="container">
+    <div class="wrapper">
+        <h3>Fill your details</h3>
+        <div id="error_message"></div>
+        <form id="myform" onsubmit="return validate();">
+          <div class="input_field">
+              <input type="text" placeholder="Name" id="name">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="PhoneNumber" id="phoneNumber">
+          </div>
+          <div class="input_field">
+              <textarea placeholder="Address" id="address"></textarea>
+          </div>
+          <div class="btn">
+              <input type="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="inner-footer">
+      <div class="footer-items">
+        <h1>TastyBakers</h1>
+
+        <div class="footer-items">
+           <div>
+             <ul>
+               <a href="#"><li>Contact</li></a>
+               <a href="#"><li>Partnership</li></a>
+               <a href="#"><li>Pricing</li></a>
+               <a href="#"><li>Career</li></a>
+             </ul>
+         </div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Jquery Cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--AOS JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 120,
+        easing: 'ease-in-out'
+    });
+</script>
+</body>
+</html>
